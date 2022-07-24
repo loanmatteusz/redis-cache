@@ -9,6 +9,7 @@ In this application I learn about backend caching using Redis, a fast and scalab
 3. After type your `DATABASE_URL` in `.env` file, run the command: `npx prisma db push`;
 4. With docker installed, run the following command: `docker-compose up`;
 5. Then execute a prisma command in your container following these commands:
-`5.1: docker exec -it <name_of_app_container> sh`
-`5.2: npx prisma generate`
-- Done, now you can enjoin of this code. :D
+> `docker exec -it <name_of_app_container> sh`
+> `npx prisma generate`
+
+##### Done, now you can enjoin of this code. :D
